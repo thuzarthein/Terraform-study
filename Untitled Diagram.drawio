@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="YqiurDGz-C5OHObYLr6m">
-    <mxGraphModel dx="1746" dy="1254" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1671" dy="1049" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,13 +22,10 @@
             <mxPoint x="414.5" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oO_jSNqtf_fxw--2Rh1Y-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="UI, user interface&amp;nbsp;&lt;div&gt;vault server -dev -dev-listern-address=192.168.0.100:8200&lt;/div&gt;" vertex="1">
+        <mxCell id="oO_jSNqtf_fxw--2Rh1Y-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="UI, user interface&amp;nbsp;&lt;div&gt;vault server -dev -dev-listen-address=192.168.0.100:8200&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="330" x="70" y="210" as="geometry" />
         </mxCell>
-        <mxCell id="oO_jSNqtf_fxw--2Rh1Y-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=30;" value="User inter face &amp;nbsp;log in directly on website" vertex="1">
-          <mxGeometry height="30" width="240" x="450" y="455" as="geometry" />
-        </mxCell>
-        <mxCell id="oO_jSNqtf_fxw--2Rh1Y-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="UI, user interface&amp;nbsp;&lt;div&gt;vault server -dev -dev-listern-address=127.0.01:8200&lt;/div&gt;" vertex="1">
+        <mxCell id="oO_jSNqtf_fxw--2Rh1Y-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="UI, user interface&amp;nbsp;&lt;div&gt;vault server -dev -dev-listen-address=127.0.01:8200&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="330" x="70" y="255" as="geometry" />
         </mxCell>
         <mxCell id="oO_jSNqtf_fxw--2Rh1Y-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CLI, command line &amp;nbsp;interface&amp;nbsp;&lt;div&gt;export VAULT_ADDR=&#39;http://192.168.0.100:8200&#39;&lt;br&gt;&lt;/div&gt;&lt;div&gt;export VAULT_TOKEN= (add root token)&lt;/div&gt;&lt;div&gt;check with vault status&amp;nbsp;&lt;/div&gt;" vertex="1">
@@ -97,7 +94,7 @@
         <mxCell id="H7I8T4GGvMmf3n4EGWgs-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;rounded=0;" value="Step 1" vertex="1">
           <mxGeometry height="30" width="60" x="460" y="480" as="geometry" />
         </mxCell>
-        <mxCell id="H7I8T4GGvMmf3n4EGWgs-5" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=11;curved=1;width=24;" target="H7I8T4GGvMmf3n4EGWgs-4" value="">
+        <mxCell id="H7I8T4GGvMmf3n4EGWgs-5" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=11;curved=1;width=24;endWidth=26;" target="H7I8T4GGvMmf3n4EGWgs-4" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="414.5" y="350" as="sourcePoint" />
             <mxPoint x="414.5" y="160" as="targetPoint" />
@@ -150,6 +147,9 @@
         </mxCell>
         <mxCell id="H7I8T4GGvMmf3n4EGWgs-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;rounded=0;" value="step 3 - connect vault with &amp;nbsp;- aws master account&amp;nbsp;" vertex="1">
           <mxGeometry height="30" width="270" x="660" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="H7I8T4GGvMmf3n4EGWgs-44" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="UI, user interface&amp;nbsp;&lt;div&gt;vault server -dev -dev-listern-address=192.168.0.100:9200&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="330" x="460" y="440" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
