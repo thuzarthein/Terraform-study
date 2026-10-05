@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="YqiurDGz-C5OHObYLr6m">
-    <mxGraphModel dx="1671" dy="1049" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1222" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,13 +22,13 @@
             <mxPoint x="414.5" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oO_jSNqtf_fxw--2Rh1Y-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="UI, user interface&amp;nbsp;&lt;div&gt;vault server -dev -dev-listen-address=192.168.0.100:8200&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="330" x="70" y="210" as="geometry" />
+        <mxCell id="oO_jSNqtf_fxw--2Rh1Y-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;rounded=0;" value="vault server -dev -dev-listen-address=192.168.0.100:8200" vertex="1">
+          <mxGeometry height="30" width="330" x="70" y="220" as="geometry" />
         </mxCell>
         <mxCell id="oO_jSNqtf_fxw--2Rh1Y-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="UI, user interface&amp;nbsp;&lt;div&gt;vault server -dev -dev-listen-address=127.0.01:8200&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="330" x="70" y="255" as="geometry" />
         </mxCell>
-        <mxCell id="oO_jSNqtf_fxw--2Rh1Y-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CLI, command line &amp;nbsp;interface&amp;nbsp;&lt;div&gt;export VAULT_ADDR=&#39;http://192.168.0.100:8200&#39;&lt;br&gt;&lt;/div&gt;&lt;div&gt;export VAULT_TOKEN= (add root token)&lt;/div&gt;&lt;div&gt;check with vault status&amp;nbsp;&lt;/div&gt;" vertex="1">
+        <mxCell id="oO_jSNqtf_fxw--2Rh1Y-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;rounded=0;" value="CLI, command line &amp;nbsp;interface&amp;nbsp;&lt;div&gt;export VAULT_ADDR=&#39;http://192.168.0.100:8200&#39;&lt;br&gt;&lt;/div&gt;&lt;div&gt;export VAULT_TOKEN= (add root token)&lt;/div&gt;&lt;div&gt;check with vault status&amp;nbsp;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="280" x="425" y="210" as="geometry" />
         </mxCell>
         <mxCell id="oO_jSNqtf_fxw--2Rh1Y-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CLI, command line &amp;nbsp;interface&amp;nbsp;&lt;div&gt;export VAULT_ADDR=&#39;http://127.0.01:8200&#39;&lt;br&gt;&lt;/div&gt;&lt;div&gt;export VAULT_TOKEN= (add root token)&lt;/div&gt;&lt;div&gt;check with vault status&amp;nbsp;&lt;/div&gt;" vertex="1">
@@ -86,7 +86,7 @@
           <mxGeometry height="30" width="240" x="730" y="550" as="geometry" />
         </mxCell>
         <mxCell id="H7I8T4GGvMmf3n4EGWgs-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;rounded=0;" value="step 2 create secrete Engine - aws master account&amp;nbsp;" vertex="1">
-          <mxGeometry height="30" width="182" x="350" y="35" as="geometry" />
+          <mxGeometry height="30" width="182" x="350" y="10" as="geometry" />
         </mxCell>
         <mxCell id="H7I8T4GGvMmf3n4EGWgs-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;rounded=0;" value="step 2 - create secrete Engine - aws dev account&amp;nbsp;" vertex="1">
           <mxGeometry height="30" width="120" x="670" y="630" as="geometry" />
@@ -150,6 +150,9 @@
         </mxCell>
         <mxCell id="H7I8T4GGvMmf3n4EGWgs-44" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="UI, user interface&amp;nbsp;&lt;div&gt;vault server -dev -dev-listern-address=192.168.0.100:9200&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="330" x="460" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="H7I8T4GGvMmf3n4EGWgs-45" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="vault secret enable aws / vault secrets list&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="319" x="251" y="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
