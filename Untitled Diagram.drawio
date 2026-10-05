@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="YqiurDGz-C5OHObYLr6m">
+    <mxGraphModel dx="1053" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oO_jSNqtf_fxw--2Rh1Y-2" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.vault;" value="Vault" vertex="1">
+          <mxGeometry height="60" width="60" x="385" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="oO_jSNqtf_fxw--2Rh1Y-4" parent="1" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.user;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="385" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="oO_jSNqtf_fxw--2Rh1Y-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="loopback&amp;nbsp;&lt;div&gt;127.0.0.1&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="430" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="oO_jSNqtf_fxw--2Rh1Y-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Wireless NIC &amp;nbsp;&lt;div&gt;192.168.0.100&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="100" x="300" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="oO_jSNqtf_fxw--2Rh1Y-9" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=11;curved=1;width=24;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="414.5" y="350" as="sourcePoint" />
+            <mxPoint x="414.5" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oO_jSNqtf_fxw--2Rh1Y-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="UI, user interface&amp;nbsp;&lt;div&gt;vault server -dev -dev-listern-address=192.168.0.100:8200&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="330" x="70" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="oO_jSNqtf_fxw--2Rh1Y-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=30;" value="User inter face &amp;nbsp;log in directly on website" vertex="1">
+          <mxGeometry height="30" width="240" x="450" y="455" as="geometry" />
+        </mxCell>
+        <mxCell id="oO_jSNqtf_fxw--2Rh1Y-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="UI, user interface&amp;nbsp;&lt;div&gt;vault server -dev -dev-listern-address=127.0.01:8200&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="330" x="70" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="oO_jSNqtf_fxw--2Rh1Y-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CLI, command line &amp;nbsp;interface&amp;nbsp;&lt;div&gt;export VAULT_ADDR=&#39;http://192.168.0.100:8200&#39;&lt;br&gt;&lt;/div&gt;&lt;div&gt;export VAULT_TOKEN= (add root token)&lt;/div&gt;&lt;div&gt;check with vault status&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="280" x="425" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="oO_jSNqtf_fxw--2Rh1Y-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CLI, command line &amp;nbsp;interface&amp;nbsp;&lt;div&gt;export VAULT_ADDR=&#39;http://127.0.01:8200&#39;&lt;br&gt;&lt;/div&gt;&lt;div&gt;export VAULT_TOKEN= (add root token)&lt;/div&gt;&lt;div&gt;check with vault status&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="280" x="430" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="oO_jSNqtf_fxw--2Rh1Y-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="IAM user&lt;div&gt;master-vault-admin&lt;/div&gt;&lt;div&gt;access key&amp;nbsp;&lt;/div&gt;&lt;div&gt;secret access key&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="182" x="990" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="oO_jSNqtf_fxw--2Rh1Y-27" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="100" width="80" x="950" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oO_jSNqtf_fxw--2Rh1Y-23" parent="oO_jSNqtf_fxw--2Rh1Y-27" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.aws_cloud;" value="Master &amp;nbsp;account" vertex="1">
+          <mxGeometry height="60" width="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oO_jSNqtf_fxw--2Rh1Y-25" parent="oO_jSNqtf_fxw--2Rh1Y-27" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.user;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="30" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oO_jSNqtf_fxw--2Rh1Y-28" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="100" width="80" x="950" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="oO_jSNqtf_fxw--2Rh1Y-29" parent="oO_jSNqtf_fxw--2Rh1Y-28" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.aws_cloud;" value="DEV. &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oO_jSNqtf_fxw--2Rh1Y-30" parent="oO_jSNqtf_fxw--2Rh1Y-28" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.user;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="30" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oO_jSNqtf_fxw--2Rh1Y-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="IAM&amp;nbsp;&lt;div&gt;dev-vault-admin&lt;/div&gt;&lt;div&gt;access key&amp;nbsp;&lt;/div&gt;&lt;div&gt;secrete access key&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="182" x="990" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="oO_jSNqtf_fxw--2Rh1Y-32" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.vault;" value="Vault" vertex="1">
+          <mxGeometry height="60" width="60" x="690" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="oO_jSNqtf_fxw--2Rh1Y-34" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.8;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="432.5" y="433" as="sourcePoint" />
+            <mxPoint x="697.5" y="549.7796610169491" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oO_jSNqtf_fxw--2Rh1Y-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CLI, command line &amp;nbsp;interface&amp;nbsp;&lt;div&gt;export VAULT_ADDR=&#39;http://127.0.01:9200&#39;&lt;br&gt;&lt;/div&gt;&lt;div&gt;export VAULT_TOKEN= (add root token)&lt;/div&gt;&lt;div&gt;check with vault status&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="280" x="360" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="oO_jSNqtf_fxw--2Rh1Y-37" edge="1" parent="1" source="oO_jSNqtf_fxw--2Rh1Y-2" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" target="oO_jSNqtf_fxw--2Rh1Y-23" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="670" y="370" as="sourcePoint" />
+            <mxPoint x="720" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oO_jSNqtf_fxw--2Rh1Y-38" edge="1" parent="1" source="oO_jSNqtf_fxw--2Rh1Y-32" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" target="oO_jSNqtf_fxw--2Rh1Y-29" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="670" y="370" as="sourcePoint" />
+            <mxPoint x="720" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oO_jSNqtf_fxw--2Rh1Y-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="vault server -dev -dev-listen-address = 127.0.0.1:9200" vertex="1">
+          <mxGeometry height="30" width="240" x="730" y="550" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
