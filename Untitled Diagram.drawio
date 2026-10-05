@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="YqiurDGz-C5OHObYLr6m">
-    <mxGraphModel dx="1222" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="843" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -151,7 +151,7 @@
         <mxCell id="H7I8T4GGvMmf3n4EGWgs-44" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="UI, user interface&amp;nbsp;&lt;div&gt;vault server -dev -dev-listern-address=192.168.0.100:9200&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="330" x="460" y="440" as="geometry" />
         </mxCell>
-        <mxCell id="H7I8T4GGvMmf3n4EGWgs-45" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="vault secret enable aws / vault secrets list&amp;nbsp;" vertex="1">
+        <mxCell id="H7I8T4GGvMmf3n4EGWgs-45" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="vault secrets enable aws / vault secrets list&amp;nbsp;" vertex="1">
           <mxGeometry height="30" width="319" x="251" y="40" as="geometry" />
         </mxCell>
       </root>
